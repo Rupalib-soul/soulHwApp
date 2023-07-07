@@ -1,0 +1,354 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--image view-->
+    <dimen name="login_imageview_height">80dp</dimen>
+    <dimen name="login_imageview_margin_bottom">20dp</dimen>
+
+    <!--view-->
+    <dimen name="login_view_height">20dp</dimen>
+
+    <!--linear layout before login text-->
+    <dimen name="login_padding">16dp</dimen>
+
+    <!--login text view-->
+    <dimen name="login_logintext_margin_bottom">30dp</dimen>
+    <dimen name="login_logintext_margin_left">30dp</dimen>
+    <dimen name="login_logintext">18sp</dimen>
+
+    <!--enter your username and password-->
+
+    <dimen name="login_enter_u_and_p_margin_left">20dp</dimen>
+    <dimen name="login_enter_u_and_p_textsize">14sp</dimen>
+
+    <!--linear layout for username-->
+    <dimen name="login_username_margin_bottom">5dp</dimen>
+    <dimen name="login_username_margin_top">40dp</dimen>
+
+    <!--username -->
+    <dimen name="login_usernametext_size">14sp</dimen>
+    <dimen name="login_username_edittext_paddingleft">6dp</dimen>
+    <dimen name="login_username_edittext_height">30dp</dimen>
+
+    <!--linear layout for password-->
+    <dimen name="login_password_margin_bottom">5dp</dimen>
+    <dimen name="login_password_margin_top">30dp</dimen>
+
+    <!--password -->
+    <dimen name="login_passwordtextsize">14sp</dimen>
+    <dimen name="login_password_edittext_paddingleft">6dp</dimen>
+    <dimen name="login_password_edittext_height">30dp</dimen>
+
+    <!--linear layout for checkbox-->
+    <dimen name="login_checkbox_margin_top">25dp</dimen>
+
+    <!--checkbox -->
+    <dimen name="login_checkbox_margin_bottom">20dp</dimen>
+    <dimen name="login_checkbox_margin_left">10dp</dimen>
+    <dimen name="login_checkboxtextsize">14sp</dimen>
+
+    <!--forgot password -->
+    <dimen name="login_forgot_password_margin_left">30dp</dimen>
+
+    <!--linear layout for login-->
+    <dimen name="login_login_padding">10dp</dimen>
+
+    <!--login button-->
+    <dimen name="login_loginbutton_width">120dp</dimen>
+    <dimen name="login_login_text_size">16sp</dimen>
+
+    <!--linear layout for bottomtext-->
+    <dimen name="login_bottomtext_margin_bottom">30dp</dimen>
+    <dimen name="login_bottomtext_padding">16dp</dimen>
+    <dimen name="login_bottomtext_text_size">16sp</dimen>
+
+    <!--..........................................................-->
+
+    <!--parent linear layout for homepage-->
+    <dimen name="homepage_layout_margin">4dp</dimen>
+
+    <!-- linear layout for all icons-->
+    <dimen name="homepage_tile_layout_margin_top">2dp</dimen>
+
+
+    <!--linear layout for mypolicy-->
+    <dimen name="homepage_linear_layout_mypolicy_margin_right">2dp</dimen>
+
+    <!-- mypolicy text-->
+    <dimen name="homepage_mypolicy_paddingtop">5dp</dimen>
+    <dimen name="homepage_mypolicy_textsize">16sp</dimen>
+    <!-- mypolicy image-->
+    <dimen name="homepage_mypolicy_image_width">36dp</dimen>
+    <dimen name="homepage_mypolicy_image_height">36dp</dimen>
+    <dimen name="homepage_mypolicy_image_margintop">10dp</dimen>
+    <dimen name="homepage_mypolicy_image_paddingleft">2dp</dimen>
+    <dimen name="homepage_mypolicy_image_paddingbottom">2dp</dimen>
+
+    <!-- updates text-->
+    <dimen name="homepage_updates_paddingtop">5dp</dimen>
+    <dimen name="homepage_updates_textsize">16sp</dimen>
+
+    <!-- updates image-->
+    <dimen name="homepage_updates_image_width">36dp</dimen>
+    <dimen name="homepage_updates_image_height">36dp</dimen>
+    <dimen name="homepage_updates_image_margintop">10dp</dimen>
+    <dimen name="homepage_updates_image_paddingleft">2dp</dimen>
+
+    <!--linear layout for quick connect-->
+    <dimen name="homepage_linear_layout_quickconnect_margin_right">2dp</dimen>
+
+    <!-- quick text-->
+    <dimen name="homepage_quickconnect_paddingtop">5dp</dimen>
+    <dimen name="homepage_quickconnect_textsize">16sp</dimen>
+    <!-- connect text-->
+    <dimen name="homepage_connect_paddingleft">20dp</dimen>
+    <dimen name="homepage_connect_textsize">16sp</dimen>
+
+    <!-- quickconnect image-->
+    <dimen name="homepage_quickconnect_image_width">36dp</dimen>
+    <dimen name="homepage_quickconnect_image_height">36dp</dimen>
+    <dimen name="homepage_quickconnect_image_margintop">10dp</dimen>
+    <dimen name="homepage_quickconnect_image_paddingleft">2dp</dimen>
+    <dimen name="homepage_quickconnect_image_paddingbottom">2dp</dimen>
+
+
+    <!--linear layout for quick guide-->
+    <dimen name="homepage_linear_layout_quick_guide_margin_right">2dp</dimen>
+
+    <!-- quick text-->
+    <dimen name="homepage_quickguide_paddingtop">5dp</dimen>
+    <dimen name="homepage_quick_textsize">16sp</dimen>
+    <!-- guide text-->
+    <dimen name="homepage_quide_textsize">16sp</dimen>
+
+    <!-- quickguide image-->
+    <dimen name="homepage_quickguide_image_width">36dp</dimen>
+    <dimen name="homepage_quickguide_image_height">20dp</dimen>
+    <dimen name="homepage_quickguide_image_margintop">10dp</dimen>
+    <dimen name="homepage_quickguide_image_paddingleft">2dp</dimen>
+
+
+    <!-- grievance text-->
+    <dimen name="homepage_grievance_paddingtop">5dp</dimen>
+    <dimen name="homepage_grievance_textsize">16sp</dimen>
+
+    <!-- quickguide image-->
+    <dimen name="homepage_grievance_image_width">36dp</dimen>
+    <dimen name="homepage_grievance_image_height">36dp</dimen>
+    <dimen name="homepage_grievance_image_margintop">10dp</dimen>
+    <dimen name="homepage_grievance_image_paddingleft">2dp</dimen>
+    <dimen name="homepage_grievance_image_paddingbottom">2dp</dimen>
+
+    <!--linear layout for hospital search-->
+    <dimen name="homepage_linear_layout_hospital_search_margin_bottom">1dp</dimen>
+    <dimen name="homepage_linear_layout_hospital_search_margin_right">2dp</dimen>
+
+    <!-- hospital search text-->
+    <dimen name="homepage_hospital_search_paddingtop">5dp</dimen>
+    <dimen name="homepage_hospital_search_textsize">16sp</dimen>
+    <!-- hospital search image-->
+    <dimen name="homepage_hospital_search_image_width">36dp</dimen>
+    <dimen name="homepage_hospital_search_image_height">36dp</dimen>
+    <dimen name="homepage_hospital_search_image_margintop">10dp</dimen>
+    <dimen name="homepage_hospital_search_image_paddingleft">2dp</dimen>
+
+    <!-- cliams junction text-->
+    <dimen name="homepage_claims_junction_paddingtop">5dp</dimen>
+    <dimen name="homepage_claims_junction_textsize">16sp</dimen>
+    <!-- cliams junction image-->
+    <dimen name="homepage_claims_junction_image_width">36dp</dimen>
+    <dimen name="homepage_claims_junction_image_height">36dp</dimen>
+    <dimen name="homepage_claims_junction_image_margintop">10dp</dimen>
+    <dimen name="homepage_claims_junction_image_paddingleft">2dp</dimen>
+    <dimen name="homepage_claims_junction_image_paddingbottom">2dp</dimen>
+
+
+    <!--claims_new.......................................................................-->
+
+    <!-- -claims_new  hospital search text.-->
+    <dimen name="claims_new_hospital_search_height">50dp</dimen>
+    <dimen name="claims_new_hospital_search_marginleft">8dp</dimen>
+    <dimen name="claims_new_hospital_search_textsize">18sp</dimen>
+
+
+    <!-- -claims_new. edit text for hospital search-->
+
+    <dimen name="claims_new_edittext_hospital_search_paddingbottom">25dp</dimen>
+    <dimen name="claims_new_edittext_hospital_search_paddingleft">10dp</dimen>
+    <dimen name="claims_new_edittext_hospital_search_paddingtop">20dp</dimen>
+
+
+    <!-- -claims_new. edit text for pincode-->
+
+    <dimen name="claims_new_edittext_pincode_paddingbottom">25dp</dimen>
+    <dimen name="claims_new_edittext_pincode_paddingleft">10dp</dimen>
+
+    <!-- -claims_new. edit text for city-->
+
+    <dimen name="claims_new_edittext_city_paddingbottom">25dp</dimen>
+    <dimen name="claims_new_edittext_city_paddingleft">10dp</dimen>
+
+
+    <!-- -claims_new. linearlayout nearme button-->
+    <dimen name="claims_new_linearlayout_nearme_button_paddingbottom">20dp</dimen>
+    <dimen name="claims_new_linearlayout_nearme_button_margintop">10dp</dimen>
+
+    <!-- -claims_new. linearlayout search button-->
+    <dimen name="claims_new_linearlayout_search_button_margintop">10dp</dimen>
+
+
+    <!-- -claims_new. nearme button-->
+
+    <dimen name="claims_new_nearme_button_width">130dp</dimen>
+    <dimen name="claims_new_nearme_button_height">40dp</dimen>
+    <dimen name="claims_new_nearme_button_marginleft">10dp</dimen>
+
+
+    <!-- -claims_new. search button-->
+
+    <dimen name="claims_new_search_button_width">130dp</dimen>
+    <dimen name="claims_new_search_button_height">40dp</dimen>
+    <dimen name="claims_new_search_button_marginright">10dp</dimen>
+
+
+    <!-- -claims_new linear layout patient details .-->
+
+    <dimen name="claims_new_patient_details_marginbottom">10dp</dimen>
+    <dimen name="claims_new_patient_details_margintop">10dp</dimen>
+
+
+    <!-- -claims_new  patient details text.-->
+    <dimen name="claims_new_patient_details_height">50dp</dimen>
+    <dimen name="claims_new_patient_details_marginleft">8dp</dimen>
+    <dimen name="claims_new_patient_details_textsize">18sp</dimen>
+
+
+    <!-- -claims_new  hospitaliztion details text.-->
+    <dimen name="claims_new_hospitalization_details_height">50dp</dimen>
+    <dimen name="claims_new_hospitalization_details_marginleft">8dp</dimen>
+    <dimen name="claims_new_hospitalization_details_textsize">18sp</dimen>
+
+
+    <!-- -claims_new. linearlayout intimateclaim button-->
+
+    <dimen name="claims_new_linearlayout_intimateclaim_button_margintop">10dp</dimen>
+    <dimen name="claims_new_linearlayout_intimateclaim_button_padding">1dp</dimen>
+
+
+    <!-- -claims_new. intimateclaim button-->
+
+    <dimen name="claims_new_intimateclaim_button_width">170dp</dimen>
+    <dimen name="claims_new_intimateclaim_button_height">40dp</dimen>
+    <dimen name="claims_new_intimateclaim_button_padding">10dp</dimen>
+
+    <!--image claims hospital search-->
+    <dimen name="claims_icon_plus_width">36dp</dimen>
+    <dimen name="claims_icon_plus_height">36dp</dimen>
+    <dimen name="claims_icon_minus_width">36dp</dimen>
+    <dimen name="claims_icon_minus_height">36dp</dimen>
+
+
+    <!-- -quick connect....................................... -->
+
+    <!-- -quick connect linear layout for call. -->
+
+
+    <dimen name="quickconnect_linearlayout_call_margin">2dp</dimen>
+    <dimen name="quickconnect_linearlayout_call_marginright">4dp</dimen>
+    <dimen name="quickconnect_linearlayout_call_padding">10dp</dimen>
+
+    <!-- -quick connect imageview. -->
+
+    <dimen name="quickconnect_call_image_width">60dp</dimen>
+    <dimen name="quickconnect_call_image_height">70dp</dimen>
+
+    <!-- -quick connect text. -->
+
+    <dimen name="quickconnect_call_text_paddingtop">5dp</dimen>
+    <dimen name="quickconnect_call_text_textsize">18sp</dimen>
+
+    <!-- -quick connect linear layout for email. -->
+
+    <dimen name="quickconnect_linearlayout_email_padding">10dp</dimen>
+
+    <!-- -quick connect for email imageview. -->
+
+    <dimen name="quickconnect_email_image_width">60dp</dimen>
+    <dimen name="quickconnect_email_image_height">70dp</dimen>
+
+    <!-- -quick connect for email text. -->
+
+    <dimen name="quickconnect_email_text_paddingtop">5dp</dimen>
+    <dimen name="quickconnect_email_text_textsize">18sp</dimen>
+
+    <!-- -quick connect linear layout for locate a branch. -->
+
+    <dimen name="quickconnect_linearlayout_locateabranch_margin">2dp</dimen>
+    <dimen name="quickconnect_linearlayout_locateabranch_marginright">4dp</dimen>
+    <dimen name="quickconnect_linearlayout_locateabranch_padding">10dp</dimen>
+
+    <!-- -quick connect for locate a branch imageview. -->
+
+    <dimen name="quickconnect_locateabranch_image_width">60dp</dimen>
+    <dimen name="quickconnect_locateabranch_image_height">70dp</dimen>
+
+    <!-- -quick connect for locate a branch text. -->
+
+    <dimen name="quickconnect_locateabranch_text_paddingtop">5dp</dimen>
+    <dimen name="quickconnect_locateabranch_text_textsize">18sp</dimen>
+
+
+    <!-- -quick connect linear layout for send me an advisor. -->
+
+
+    <dimen name="quickconnect_linearlayout_sendmeanadvisor_padding">10dp</dimen>
+
+    <!-- -quick connect image view for send me an advisor. -->
+
+    <dimen name="quickconnect_sendmeanadvisor_image_width">60dp</dimen>
+    <dimen name="quickconnect_sendmeanadvisor_image_height">70dp</dimen>
+
+    <!-- -quick connect for locate a branch text. -->
+
+    <dimen name="quickconnect_sendmeanadvisor_text_paddingtop">5dp</dimen>
+    <dimen name="quickconnect_sendmeanadvisor_text_textsize">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

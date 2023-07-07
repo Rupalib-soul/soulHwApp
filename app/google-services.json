@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884769214203",
+    "firebase_url": "https://otpverificationapp-cb762-default-rtdb.firebaseio.com",
+    "project_id": "otpverificationapp-cb762",
+    "storage_bucket": "otpverificationapp-cb762.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884769214203:android:798c1aff3ae6344c70ea5e",
+        "android_client_info": {
+          "package_name": "com.soul.soulhwapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884769214203-4rlhpjpkj2bmuohrg0dk8jamkv0s2ujp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soul.soulhwapp",
+            "certificate_hash": "4cff7fafb987a006eb5866df51b202ba5749ccc8"
+          }
+        },
+        {
+          "client_id": "884769214203-6qc6hee3vprarq8ru7vck7epvcbks5s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4yeBDrrsLoZNog1J1BWHN_JSekJGKEwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884769214203-4lb7uc23l5lmfnbobadil1p49bl8rpkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

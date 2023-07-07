@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">soulHwApp</string>
+    <string name="mobile_number">Mobile number<font color='#FF0000'> *</font></string>
+    <string name="task_name">Task Name<font color='#FF0000'> *</font></string>
+    <string name="start_date">Start Date<font color='#FF0000'> *</font></string>
+    <string name="due_date">Due Date<font color='#FF0000'> *</font></string>
+    <string name="or">or</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="dbbackuppath">/SOUL/DataBackUp/</string>
+    <string name="appfolder">/SOUL/</string>
+    <string name="dbpath">/data/com.soul.soul/databases/</string>
+    <string name="dbname">soul.db</string>
+    <string name="grievance_guide">a) Raise a Grievance and the interaction will be acknowledged immediately via a Grievance number."\n\n"b)Within 48 hours the initial findings/feedback will be updated."\n\n"c) Escalation Option will be available in the case there is no response within 48 hours." \n\n"d) In case user wish to update the Grievance it can be done at any moment after grievance number is created." \n\n"e) The Grievance will be resolved within 7 working days and closed." \n\n"f) Escalation Option will be available in case the issue is not closed after 7 working days.\n\n"g) Re-open option will be available in case user is not satisfied with grievance closure and will be actioned and updted within 48 hrs."\n\n"h) In case of no response at this stage higher level escalation option will be available to the user.</string>
+    <string name="google_maps_key">map key</string>
+    <string name="help_contact"><b>Contact Number :</b> +91 8877665544</string>
+    <string name="help_email"><b>Email Id :</b> test@test.com</string>
+</resources>
