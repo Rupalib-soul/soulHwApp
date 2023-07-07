@@ -23,6 +23,7 @@ import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.soul.soulhwapp.R;
+import com.soul.soulhwapp.Utils.PrefManager;
 
 import java.util.concurrent.TimeUnit;
 
@@ -55,6 +56,10 @@ public class VerifyOtpActivity extends AppCompatActivity {
         btn_VerifyOtp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                PrefManager prefManager = PrefManager.getInstance(getApplicationContext());
+                prefManager.setMobileNumber(String.format(
+                        "+91-%s", getIntent().getStringExtra("mobile")));
                 if (!et_inputNumber1.getText().toString().trim().isEmpty()
                         && !et_inputNumber2.getText().toString().trim().isEmpty()
                         && !et_inputNumber3.getText().toString().trim().isEmpty()

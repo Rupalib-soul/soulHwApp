@@ -36,8 +36,6 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     View view;
     Button btnSubmit, btnLogout;
     TextView tvUserName;
-    EditText etUpdateMobileNo, etUpdateEmailId;
-    String mobileNumber;
     FirebaseAuth mAuth;
     GoogleSignInClient mGoogleSignInClient;
     GoogleSignInOptions gso;
@@ -52,10 +50,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
             actionBar.setTitle(Html.fromHtml("<font color='#ffffff'>My Account</font>"));
         }
 
-        Bundle arguments = getArguments();
-        if (arguments != null) {
-            mobileNumber = arguments.getString("key");
-        }
+
 
         view = inflater.inflate(R.layout.fragment_profile, container, false);
         mAuth = FirebaseAuth.getInstance();
@@ -73,7 +68,6 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         int loginType = prefManager.getLoginType();
 
         if (loginType == 0) {
-            // Regular login
             String username = prefManager.getUsername();
             tvUserName.setText(username);
         } else if (loginType == 1) {
@@ -85,7 +79,9 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
             }
         } else if (loginType == 2) {
             // Mobile number login
+            String mobileNumber = prefManager.getMobileNumber(); // Retrieve the saved mobile number
             tvUserName.setText(mobileNumber);
+
         }
 
         btnSubmit.setOnClickListener(this);
@@ -93,7 +89,6 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
 
         return view;
     }
-
 
 
     @Override

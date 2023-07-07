@@ -10,6 +10,7 @@ public class PrefManager {
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_LOGIN_TYPE = "login_type";
     private static final String KEY_REMEMBER = "remember_credentials";
+    private static final String KEY_MOBILE_NUMBER = "mobile_number";
 
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
@@ -62,7 +63,14 @@ public class PrefManager {
     public boolean getRememberCredentials() {
         return sharedPreferences.getBoolean(KEY_REMEMBER, false);
     }
+    public void setMobileNumber(String mobileNumber) {
+        editor.putString(KEY_MOBILE_NUMBER, mobileNumber);
+        editor.apply();
+    }
 
+    public String getMobileNumber() {
+        return sharedPreferences.getString(KEY_MOBILE_NUMBER, "");
+    }
     public void clearPreferences() {
         editor.clear();
         editor.apply();
